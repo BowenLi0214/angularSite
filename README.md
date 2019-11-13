@@ -1,27 +1,28 @@
-# AngularSample
+# Project setup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+Make sure you have node installed and the node version should >= 12.0
 
-## Development server
+Intall `yarn` for package management
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+`brew install yarn`
 
-## Code scaffolding
+Use the following Command to install all the packages
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+`yarn`
 
-## Build
+# Development tips
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+I tend to use [Visual Studio Code](https://code.visualstudio.com).
 
-## Running unit tests
+Install packages with `yarn add dependency-name` or
+`yarn add -D dependency-name` if it's only used for development.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+# Developing/Testing Project
 
-## Running end-to-end tests
+## On Browser
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+`yarn start`
 
-## Further help
+open your browser and access
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+`http://localhost:4200/`
