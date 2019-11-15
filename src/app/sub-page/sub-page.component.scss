@@ -1,4 +1,16 @@
-.example-button-row button,
-.example-button-row a {
-  margin-right: 8px;
+.header {
+  background-image: url("/assets/img/background.jpg");
+  height: 30vh;
+  background-size: cover;
+  background-position: center;
+}
+.blockContainter {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  .title {
+    font-size: 48pt;
+
+    font-family: "Calistoga", cursive;
+  }
 }

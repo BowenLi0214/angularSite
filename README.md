@@ -10,6 +10,10 @@ Use the following Command to install all the packages
 
 `yarn`
 
+install angular
+
+`yarn install -g @angular/cli`
+
 # Development tips
 
 I tend to use [Visual Studio Code](https://code.visualstudio.com).

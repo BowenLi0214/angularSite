@@ -1,0 +1,28 @@
+.content {
+  background-image: url("/assets/img/background.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+.blockContainter {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding-top: 20%;
+  .title {
+    font-size: 64pt;
+    text-shadow: 0 0 4px #fff;
+    font-family: "Calistoga", cursive;
+    font-weight: 900;
+  }
+  .button {
+    margin-top: 100px;
+    width: 200px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 24px;
+    background-color: transparent;
+    color: #eee;
+    text-shadow: 0 0 1px #fff;
+    border: 2px solid #eee;
+  }
+}
